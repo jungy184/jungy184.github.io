@@ -11,6 +11,11 @@ a {
     text-decoration: Nueva Condensed;
 }
 
+h3 {
+	color: #b3d3ee;
+	text-align: center;
+}
+
 p {
-    text-align: center; 
+    text-align: left; 
 }
