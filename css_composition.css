@@ -4,6 +4,8 @@ div div {background: #A4CA39; position: relative;}
 .android{
 	height: 404px; width: 334px;
 	margin: 100px auto;
+	position: relative;
+    left: 58px;
 	
 }
 .head{
