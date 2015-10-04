@@ -14,3 +14,7 @@ a {
 p {
     text-align: center; 
 }
+.wrapper {
+    width: 200px;
+    margin:40px 200px 200px;
+}
