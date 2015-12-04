@@ -34,13 +34,13 @@ $("#toggle").click(function() {
     if (clicked == false) {
       $("#status").html("GO").css("background-color","green");
       $("#toggle").html("Stop");
-      $("cat").show();
+      $("#cat").show();
     clicked = true;
    } else {
       $("#status").html("STOP");
       $("#status").css("background-color","red");
       $("#toggle").html("Stop");
-         $("cat").hide();
+      $("#cat").hide();
     clicked = false;
    }
  
