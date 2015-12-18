@@ -2,7 +2,7 @@ body {
     background-color: #ffffff;
     font-size: 30px;
     font-family: 'Shadows Into Light Two', Helvetica, Sans-serif;
-    color: #eeb3b3;
+    color: #843a3a;
     text-align: center;
     position: inherit;
 }
@@ -35,7 +35,7 @@ h2 {
   color: #2b2b2b;
   text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
-.image1:hover{ 
+/*.image1:hover{ 
    position: relative; 
    width: 50px;
    display: inline-block;
@@ -74,7 +74,7 @@ h2 {
    transition-property: transform;
    -webkit-transition-timing-function: ease-out;
    transition-timing-function: ease-out;
-   top: -600px;
+   top: 600px;
    bottom: -200px;
    left: -500px;
    right: 0px;
@@ -82,6 +82,51 @@ h2 {
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
+}*/
+.imageMenu {
+  position: relative;
+  width: 500px;
+  margin: auto;
+}
+
+.image1 a {
+  position: absolute;
+  left: -130;
+  top: 100;
+}
+
+.image2 a {
+  position: absolute;
+  left: 120;
+  top: 100;
+}
+
+.image1 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin:5px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+.image2 img {
+  position: absolute;
+  left: 250;
+  top: 0;
+   margin: 5px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+.image1 img:hover{ 
+  margin-top: 1px;
+}
+
+.image2 img:hover{ 
+  margin-top: 10px;
 }
 a { 
    position: absolute; 
